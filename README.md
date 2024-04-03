@@ -1,7 +1,7 @@
 "# lista-tarefas"
 1 12 37
 Docker =
-docker run --name mysql -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql
+docker run --name mysql -e MYSQL_ROOT_PASSWORD=? -p 3306:3306 -d mysql
 
 database =
 CREATE DATABASE IF NOT EXISTS todolist;

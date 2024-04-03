@@ -13,7 +13,7 @@ const createTask = async (task) => {
 
   const [createdTask] = await connection.execute(query, [
     title,
-    "Pendente",
+    "pendente",
     dateUTC,
   ]);
   return { inserId: createdTask.insertId };
